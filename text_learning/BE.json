@@ -1,0 +1,312 @@
+{
+    "attributes": [
+        {
+            "key": "ReferenceNumber",
+            "value": "RN109990100"
+        },
+        {
+            "key": "ProductTypeInteger",
+            "value": "16"
+        },
+        {
+            "key": "SFDCOperationType",
+            "value": "CUSTOMER_CONFIRMED_PRICING"
+        },
+        {
+            "key": "VehicleModel",
+            "value": "Model 3"
+        },
+        {
+            "key": "VehicleYear",
+            "value": "2019"
+        },
+        {
+            "key": "NumberOfPayments",
+            "value": "1"
+        },
+        {
+            "key": "VehicleModelYear",
+            "value": "2019"
+        },
+        {
+            "key": "VehicleSaleYear",
+            "value": "2019"
+        },
+        {
+            "key": "CustomLicensePlateMessage",
+            "value": "false"
+        },
+        {
+            "key": "DefaultLicensePlate",
+            "value": "true"
+        },
+        {
+            "key": "TransactionType",
+            "value": "Initial"
+        },
+        {
+            "key": "BlueBookValue",
+            "value": "0"
+        },
+        {
+            "key": "OwnerBirthDate",
+            "value": ""
+        },
+        {
+            "key": "OwnerName",
+            "value": "MhttFR LcmmFR"
+        },
+        {
+            "key": "RegistrationPeriod",
+            "value": "20200227"
+        },
+        {
+            "key": "Market",
+            "value": "FR"
+        },
+        {
+            "key": "PricingDate",
+            "value": "2019-02-27T19:58:54.2650250"
+        },
+        {
+            "key": "Product",
+            "value": "m3"
+        },
+        {
+            "key": "RegistrationCity",
+            "value": "France"
+        },
+        {
+            "key": "CashPrice",
+            "value": "53500"
+        },
+        {
+            "key": "ZipCode",
+            "value": "63700"
+        },
+        {
+            "key": "FinanceType",
+            "value": "Loan"
+        },
+        {
+            "key": "FinanceProductType",
+            "value": ""
+        },
+        {
+            "key": "TradeInAmount",
+            "value": "0"
+        },
+        {
+            "key": "TradeInNetValue",
+            "value": "0"
+        },
+        {
+            "key": "TradeInLoanOrLeaseBalance",
+            "value": "0"
+        },
+        {
+            "key": "IsTradeinPurchInstate"
+        },
+        {
+            "key": "TradeInCashBackToCustomer",
+            "value": "0"
+        },
+        {
+            "key": "RegistrationDate",
+            "value": "20190227"
+        },
+        {
+            "key": "IsBusinessOwner",
+            "value": "False"
+        },
+        {
+            "key": "OrderType",
+            "value": "Cash"
+        },
+        {
+            "key": "IsUsed",
+            "value": "false"
+        }
+    ],
+    "billToAccount": {
+        "accountTypeCode": "Individual",
+        "contacts": [
+            {
+                "attributes": [],
+                "contactTypeCode": "BillTo",
+                "email": "teslamotorsqa+MFR81297491928@gmail.com",
+                "firstName": "MhttFR",
+                "isPrimaryContact": true,
+                "lastName": "LcmmFR",
+                "location": {
+                    "address1": "La Prade",
+                    "address2": "",
+                    "address3": "",
+                    "city": "France",
+                    "country": "FR",
+                    "county": "",
+                    "postalCode": "63700",
+                    "postalExtension": "",
+                    "state": ""
+                }
+            }
+        ],
+        "defaultCurrencyCode": "EUR",
+        "email": "teslamotorsqa+MFR81297491928@gmail.com",
+        "location": {
+            "address1": "La Prade",
+            "address2": "",
+            "address3": "",
+            "city": "France",
+            "country": "FR",
+            "county": "",
+            "postalCode": "63700",
+            "postalExtension": "",
+            "state": ""
+        },
+        "name": "MhttFR LcmmFR",
+        "paymentTermCode": "Unknown",
+        "uid": 1029187654
+    },
+    "calculateTaxFlag": true,
+    "countryCode": "FR",
+    "currencyCode": "EUR",
+    "deliveryLocationAccount": {
+        "accountTypeCode": "Individual",
+        "contacts": [
+            {
+                "contactTypeCode": "ShipTo",
+                "email": "teslamotorsqa+MFR81297491928@gmail.com",
+                "firstName": "MhttFR",
+                "isPrimaryContact": true,
+                "lastName": "LcmmFR",
+                "location": {
+                    "address1": "La Prade",
+                    "address2": "",
+                    "address3": "",
+                    "city": "France",
+                    "country": "FR",
+                    "county": "",
+                    "postalCode": "63700",
+                    "postalExtension": "",
+                    "state": ""
+                }
+            }
+        ],
+        "defaultCurrencyCode": "EUR",
+        "email": "teslamotorsqa+MFR81297491928@gmail.com",
+        "location": {
+            "address1": "La Prade",
+            "address2": "",
+            "address3": "",
+            "city": "France",
+            "country": "FR",
+            "county": "",
+            "postalCode": "63700",
+            "postalExtension": "",
+            "state": ""
+        },
+        "name": "MhttFR LcmmFR",
+        "paymentTermCode": "Unknown"
+    },
+    "documentTypeCode": "BookingInvoice",
+    "entityCode": "4031",
+    "invoiceItems": [
+        {
+            "inputPrice": 2000.0,
+            "isTaxIncluded": true,
+            "product": {
+                "attributes": [],
+                "productDescription": "Model 3",
+                "productNumber": "MDL3",
+                "taxReferenceCode": "8001"
+            },
+            "quantity": 1.0,
+            "uomCode": "each"
+        }
+    ],
+    "isAuditableTax": true,
+    "isProformaInvoice": false,
+    "locale": "fr-FR",
+    "referenceNumber": "RN109990100",
+    "referenceType": "ReservationNumber",
+    "regionCode": "EU",
+    "registrationPartyAccount": {
+        "accountTypeCode": "Individual",
+        "contacts": [
+            {
+                "contactTypeCode": "BillTo",
+                "email": "teslamotorsqa+MFR81297491928@gmail.com",
+                "firstName": "MhttFR",
+                "isPrimaryContact": true,
+                "lastName": "LcmmFR",
+                "location": {
+                    "address1": "La Prade",
+                    "address2": "",
+                    "address3": "",
+                    "city": "France",
+                    "country": "FR",
+                    "county": "",
+                    "postalCode": "63700",
+                    "postalExtension": "",
+                    "state": ""
+                }
+            }
+        ],
+        "defaultCurrencyCode": "EUR",
+        "email": "teslamotorsqa+MFR81297491928@gmail.com",
+        "location": {
+            "address1": "La Prade",
+            "address2": "",
+            "address3": "",
+            "city": "France",
+            "country": "FR",
+            "county": "",
+            "postalCode": "63700",
+            "postalExtension": "",
+            "state": ""
+        },
+        "name": "MhttFR LcmmFR",
+        "paymentTermCode": "Unknown",
+        "uid": 1029187654
+    },
+    "soldToAccount": {
+        "accountTypeCode": "Individual",
+        "contacts": [
+            {
+                "contactTypeCode": "SoldTo",
+                "email": "teslamotorsqa+MFR81297491928@gmail.com",
+                "firstName": "MhttFR",
+                "isPrimaryContact": true,
+                "lastName": "LcmmFR",
+                "location": {
+                    "address1": "La Prade",
+                    "address2": "",
+                    "address3": "",
+                    "city": "France",
+                    "country": "FR",
+                    "county": "",
+                    "postalCode": "63700",
+                    "postalExtension": "",
+                    "state": ""
+                }
+            }
+        ],
+        "defaultCurrencyCode": "EUR",
+        "email": "teslamotorsqa+MFR81297491928@gmail.com",
+        "location": {
+            "address1": "La Prade",
+            "address2": "",
+            "address3": "",
+            "city": "France",
+            "country": "FR",
+            "county": "",
+            "postalCode": "63700",
+            "postalExtension": "",
+            "state": ""
+        },
+        "name": "MhttFR LcmmFR",
+        "paymentTermCode": "Unknown",
+        "uid": 1029187654
+    }
+}
